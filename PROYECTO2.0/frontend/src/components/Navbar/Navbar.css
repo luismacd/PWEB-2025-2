@@ -1,0 +1,21 @@
+.site-navbar{ font-family:Inter, Arial, sans-serif; }
+.site-navbar .header-strip{ background:#111; color:#ddd; font-size:12px; padding:6px 12px }
+.site-navbar .topbar{ display:flex; align-items:center; gap:16px; padding:12px 20px; background:#fff; border-bottom:1px solid #e6e6e6 }
+.site-navbar .brand a{ font-weight:800; color:#2c7a2c; text-decoration:none; font-size:20px }
+.site-navbar .search{ flex:1; display:flex; justify-content:center }
+.site-navbar .search input{ width:560px; max-width:70%; padding:10px 12px; border-radius:24px; border:1px solid #ddd }
+.site-navbar .actions{ display:flex; align-items:center; gap:10px }
+.site-navbar .cart-btn{ background:#2c7a2c; color:#fff; border:none; padding:8px 12px; border-radius:6px; cursor:pointer }
+.site-navbar .user-link{ margin-left:6px; text-decoration:none; color:#333 }
+.site-navbar .link-btn{ background:none; border:none; cursor:pointer; color:#333 }
+
+.site-navbar .main-nav{ background:#2c7a2c }
+.site-navbar .main-nav .nav-inner{ display:flex; align-items:center; gap:18px; padding:10px 24px; color:#fff }
+.site-navbar .main-nav a{ color:#fff; text-decoration:none; font-weight:600 }
+.site-navbar .main-nav .spacer{ flex:1 }
+.site-navbar .main-nav .offer{ background:rgba(255,255,255,0.08); padding:6px 10px; border-radius:6px }
+
+@media (max-width:900px){
+  .site-navbar .search input{ max-width:100%; width:220px }
+  .site-navbar .main-nav .nav-inner{ overflow:auto }
+}

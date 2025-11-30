@@ -1,0 +1,119 @@
+.perfil-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.perfil-container h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.perfil-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.perfil-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.perfil-correo {
+  color: #008000;
+  text-decoration: underline;
+}
+
+.perfil-foto {
+  text-align: center;
+}
+
+.perfil-foto img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.perfil-btn {
+  margin-top: 10px;
+  background-color: #2dbf4e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.perfil-btn:hover {
+  background-color: #23a43f;
+}
+
+.perfil-estado {
+  color: green;
+  font-weight: 600;
+}
+
+.perfil-ordenes {
+  margin-top: 25px;
+}
+
+.tabla-ordenes {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.tabla-ordenes th {
+  background-color: #f7f7f7;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+.tabla-ordenes td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.perfil-id {
+  color: green;
+  font-weight: 600;
+}
+
+.perfil-ver-detalle {
+  background-color: #2dbf4e;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.perfil-ver-detalle:hover {
+  background-color: #23a43f;
+}
+
+.perfil-sin-ordenes {
+  color: #555;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.perfil-mensaje {
+  text-align: center;
+  color: #555;
+  margin-top: 50px;
+}

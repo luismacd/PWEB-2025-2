@@ -1,0 +1,39 @@
+{
+  "name": "proyecto-backend-pweb-2025-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node scripts/start_with_seed.js",
+    "dev": "nodemon --watch scripts --exec node scripts/start_with_seed.js",
+    "seed:recreate": "node scripts/recreate_and_seed.js",
+    "check:counts": "node scripts/check_counts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luismacd/PROYECTO-BACKEND-PWEB-2025-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luismacd/PROYECTO-BACKEND-PWEB-2025-2/issues"
+  },
+  "homepage": "https://github.com/luismacd/PROYECTO-BACKEND-PWEB-2025-2#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.10",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  },
+  "type": "module"
+}

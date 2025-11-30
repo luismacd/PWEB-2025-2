@@ -1,0 +1,4 @@
+.site-header .top-strip{ background:#111; color:#ddd; font-size:12px; padding:6px 12px }
+.site-header .top-strip .top-strip-inner{ max-width:1200px; margin:0 auto; display:flex; align-items:center; gap:10px }
+.site-header .top-strip .dot{ width:9px; height:9px; background:#2c7a2c; border-radius:50% }
+.site-header .top-strip .text{ color:#ddd }

@@ -1,0 +1,3 @@
+.product-detail{ display:flex; gap:20px; }
+.product-detail .left img{ width:380px; height:320px; object-fit:cover; border-radius:8px; }
+.product-detail .price{ color:#2c7a2c; font-weight:700; font-size:20px; }

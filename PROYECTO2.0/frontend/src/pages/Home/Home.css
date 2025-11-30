@@ -1,0 +1,50 @@
+.home .hero{ background:linear-gradient(90deg,#2a9d8f66,#26465366); color:#fff; padding:30px; border-radius:8px; margin-bottom:18px }
+.grid{ display:flex; gap:12px; flex-wrap:wrap }
+.grid.small .product-card{ width:200px }
+.home-page .hero{ background:#fff; padding:0; border-radius:8px; margin-bottom:20px; }
+.featured-cats .cats{ display:flex; gap:12px; margin:12px 0; align-items:center }
+.cat{ background:#fff; padding:18px; border-radius:999px; border:6px solid #2c7a2c; width:140px; height:140px; display:flex; align-items:center; justify-content:center; flex-direction:column }
+.top-products .grid{ display:flex; gap:12px; flex-wrap:nowrap; overflow:auto; padding:12px 0 }
+.top-products { position: relative }
+.grid-viewport{ position:relative; display:flex; align-items:center; gap:8px }
+.grid-viewport .grid{ overflow-x:auto; scroll-behavior:smooth; padding:12px 0; -webkit-overflow-scrolling:touch }
+.grid-viewport .carousel-btn{ position:absolute; top:50%; transform:translateY(-50%); width:40px; height:40px; border-radius:20px; border:0; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.12); cursor:pointer; display:flex; align-items:center; justify-content:center }
+.grid-viewport .carousel-btn.left{ left:8px }
+.grid-viewport .carousel-btn.right{ right:8px }
+
+
+/* overlay buttons, viewport width shows 8 cards on wide screens */
+.grid-viewport{ width: calc(8 * 240px + 7 * 12px); max-width:100%; margin:0 auto }
+
+@media (max-width:1200px){
+	.grid-viewport{ width: calc(6 * 240px + 5 * 12px) }
+}
+
+@media (max-width:900px){
+	.grid-viewport{ width: calc(3 * 200px + 2 * 12px) }
+}
+
+.spinner{ width:18px; height:18px; border:3px solid #eee; border-top-color:#3aa423; border-radius:50%; display:inline-block; animation: spin 1s linear infinite }
+@keyframes spin{ to{ transform: rotate(360deg) } }
+.product-card{ background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05); width:240px }
+.product-card .product-image{ width:100%; height:160px; object-fit:cover; border-radius:6px }
+.product-card .product-info{ padding-top:8px }
+.product-card .product-price{ color:#2c7a2c; font-weight:700 }
+.serie-card img{ width:120px; height:120px; object-fit:cover; border-radius:999px }
+
+.hero-banner{ position:relative; width:100%; height:360px; background:#000; color:#fff; border-radius:8px; overflow:hidden }
+.hero-banner img{ width:100%; height:100%; object-fit:cover; opacity:0.95 }
+.hero-banner .banner-inner{ position:absolute; left:40px; bottom:40px }
+.hero-banner h1{ margin:0; font-size:32px }
+
+@media (max-width:900px){
+	.site-navbar .search input{ width:180px }
+	.cat{ width:90px; height:90px; border-width:4px }
+	.product-card{ width:200px }
+}
+
+.load-controls{ display:flex; gap:12px; justify-content:center; margin-top:12px }
+.load-controls .btn{ padding:8px 14px; border-radius:6px; border:0; cursor:pointer; background:var(--brand, #2c7a2c); color:#fff }
+.load-controls .btn[disabled]{ opacity:0.7; cursor:default }
+.load-controls .load-all{ background:#1f5e1f }
+.no-more{ text-align:center; color:#666; padding:8px }

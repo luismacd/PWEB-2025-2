@@ -1,0 +1,80 @@
+/* Contenedor general centrado */
+.Cambiar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f8f9fa;
+}
+
+/* Tarjeta principal */
+.Cambiar-card {
+  background-color: #ffffff;
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Título */
+.Cambiar-card h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.8rem;
+}
+
+/* Etiquetas de los inputs */
+.Cambiar-card label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: left;
+  margin-bottom: 0.4rem;
+}
+
+/* Campos de entrada */
+.Cambiar-card input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 1.2rem;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* Efecto al enfocar el input */
+.Cambiar-card input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 4px rgba(40, 167, 69, 0.3);
+  outline: none;
+}
+
+/* Botón principal */
+.Cambiar-card button {
+  width: 100%;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+/* Hover del botón */
+.Cambiar-card button:hover {
+  background-color: #218838;
+}
+
+/* Pequeña animación de clic */
+.Cambiar-card button:active {
+  transform: scale(0.98);
+}
+
+
